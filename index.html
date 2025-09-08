@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Info · Long Portfolio</title>
+
+  <!-- Google Fonts: để TRÊN file CSS để chắc chắn load trước -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Thông tin cá nhân & mục tiêu học tập" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="site" role="banner">
+    <nav class="container nav" aria-label="Điều hướng chính">
+      <a class="brand" href="index.html">Long · Portfolio</a>
+      <a data-link href="index.html">Info</a>
+      <a data-link href="#">Dự án</a>
+      <a data-link href="#">Kinh nghiệm</a>
+      <a data-link href="#">Sở thích</a>
+      <a data-link href="#">Thế mạnh</a>
+      <a data-link href="#">Sách</a>
+      <a data-link href="#">Chứng chỉ</a>
+      <a data-link href="#">Gallery</a>
+      <span class="spacer"></span>
+      <button id="menuBtn" class="menu-btn" aria-label="Mở/đóng menu">Menu</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero block">
+      <div class="avatar" aria-hidden="true">HN</div>
+      <div class="hero-body">
+        <h1>Thông tin cá nhân</h1>
+        <p>Xin chào! Mình là <strong>Hoàng Long</strong> — yêu thích Web &amp; Data.</p>
+        <p>
+          📧 Email:
+          <a class="link-strong" href="mailto:email@domain.com">email@domain.com</a>
+          · 📍 HCM, VN.
+        </p>
+        <div class="chips">
+          <span class="chip">HTML5/CSS3/JS</span>
+          <span class="chip">Responsive</span>
+          <span class="chip">A11y (WCAG AA)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOs -->
+    <section class="card block" aria-labelledby="los-title">
+      <h2 id="los-title">📌 Mục tiêu học tập (LOs)</h2>
+      <ul class="list">
+        <li>Xây dựng website tĩnh đa trang theo chuẩn HTML5/CSS3/JS.</li>
+        <li>Thiết kế giao diện responsive, dễ đọc, điều hướng mượt.</li>
+        <li>Tổ chức mã nguồn sạch: cấu trúc thư mục, tách CSS/JS, đặt tên có quy ước.</li>
+        <li>Triển khai (deploy) với GitHub Pages.</li>
+        <li>Viết README mô tả dự án, cách chạy, và bản quyền nội dung.</li>
+      </ul>
+    </section>
+
+    <!-- 3 cards -->
+    <section class="grid grid-3 block">
+      <article class="card">
+        <h3>Liên hệ</h3>
+        <p>📞 09xx xxx xxx · 🔗 <a class="link-strong" href="#">LinkedIn</a> · 🧑‍💻 <a class="link-strong" href="#">GitHub</a></p>
+      </article>
+      <article class="card">
+        <h3>Kỹ thuật quan tâm</h3>
+        <div class="chips">
+          <span class="chip">Semantic HTML</span>
+          <span class="chip">Flex/Grid</span>
+          <span class="chip">ARIA</span>
+          <span class="chip">Performance</span>
+        </div>
+      </article>
+      <article class="card">
+        <h3>Ghi chú a11y</h3>
+        <p>Ảnh có <code>alt</code>, heading theo thứ bậc, <code>aria-current</code> cho trang hiện tại, tương phản màu đạt AA.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site" role="contentinfo">
+    <div class="container">© 2025 Long — Built with HTML5/CSS3/JS</div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
